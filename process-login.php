@@ -16,5 +16,5 @@ if(isset($_POST['toggler'])){
     $_SESSION['password'] = $_POST['password'];
     
 }
-header('Location: responsive-login-with-show-and-hide-password.php');
+header('Location: index.php');
 exit;
