@@ -22,7 +22,7 @@ if(isset($_SESSION['password_field_type'])){
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Responsive Layout</title>
+    <title>Responsive Login Form in PHP</title>
     <style>
       * {
         padding: 0;
@@ -129,7 +129,7 @@ if(isset($_SESSION['password_field_type'])){
     <main>
       <div class="login-form">
         <div class="login-form-header">
-          <h3>JCC Programming Foundation Class</h3>
+          <h3>JCC Backend Fundamentals Class</h3>
         </div>
         <div class="login-form-body">
           <form action="process-login.php" method="POST">
